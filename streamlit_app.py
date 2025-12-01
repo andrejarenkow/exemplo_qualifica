@@ -20,7 +20,7 @@ def conectar_drive():
 drive_service = conectar_drive()
 
 # ID da pasta no Google Drive (pode colocar no secrets também)
-FOLDER_ID = st.secrets["folder_id"]
+FOLDER_ID = '1deD2LRN_DeF4OaW9p__Fnyadu1qsGNwv'
 
 # ========== UPLOAD ==========
 uploaded_file = st.file_uploader("Selecione um arquivo para enviar:")
